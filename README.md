@@ -42,9 +42,6 @@ Resume tool for edit/proofread/format/styles/guidelines
 + [ ] application logic
 + [ ] send form data to server (dummy endpoint)
 
-### TODO: server processing
-+ [ ] compile list of resume rules
-
 ### Roles and Responsibilities
 + Javier: regex parser
 + Ed: 
