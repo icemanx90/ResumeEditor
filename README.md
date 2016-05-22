@@ -1,35 +1,58 @@
-# ResumeEditor
-Run on NodeJS
-Run npm install
+## Team: Hells Angels -- subject to change
 
-### milestones:
-* wireframe (project framework)
-* fleshed out ui form
-* parsing reg ex service
-* Domain research and documentation
-* Resume editing api
-* Host on server
+### ResumeEditor
+Resume tool for edit/proofread/format/styles/guidelines
+
+### Start Up
+1. Have node.js installed
+2. Execute `npm install` for dependecies
+3. Start command (`npm start` OR `node index.js`)?
 
 ### Initial workflow
-* Form submission
-* Server processes and perists resume data
-* Notifcation is sent to admin
-* Admin reviews proposed changes
-* Export to template
-* Send to client via email
+1. Client Form submission
+2. Data compiled into json object for transport
+3. authenticated, and sent to server controller
+4. Server app runs parser and builder services 
+5. Server app perists resume data to datastore
+6. Notification is sent to admin, email or app Notification
+7. Admin logs in, reviews proposed changes
+8. Admin exports to template, if Client does not specify template
+9. App service sends to client via email, could be manual
 
-### todo: form submission
-* style form area on ui for form upload
-* validation logic
-* application logic
-* send form data to server
+### Milestones:
++ [x] git connectivity and workflow
++ [x] Wireframe (project framework)
++ [ ] Team details (name, brand)
++ [ ] Domain research and documentation (compiled list of resume rules/tips/dosAndDonts)
++ [ ] Fleshed out ui form
++ [ ] Authenticated requests to app
++ [ ] Parsing reg ex services
++ [ ] Resume building api
++ [ ] Resume editing api
++ [ ] Exportable templates
++ [ ] Host on server
 
-### todo: server processing
-* compile list of resume rules
+### TODO: Groundwork
++ [ ] Team details (name, brand)
++ [ ] Domain research and documentation (compiled list of resume rules/tips/dosAndDonts)
+
+### TODO: 1. Client Form submission
++ [ ] style form area on ui for form upload
++ [ ] validation logic
++ [ ] application logic
++ [ ] send form data to server (dummy endpoint)
+
+### TODO: server processing
++ [ ] compile list of resume rules
 
 ### Roles and Responsibilities
-* Javier - regex parser
-* Ed - 
-* Matt - scribe :(
-* Arun
-* Kevin V.
++ Javier: regex parser
++ Ed: 
++ Matt: UI
++ Arun:  
++ Kevin:  
+
+### Resources
++ [Markdown Cheat Sheet For README.md](https://github.com/adam+p/markdown+here/wiki/Markdown+Cheatsheet)
++ [Git Workflow + Feature Branches](https://www.atlassian.com/git/tutorials/comparing+workflows/feature+branch+workflow)
++ [Sequence Diagram Builder](https://www.websequencediagrams.com/)
